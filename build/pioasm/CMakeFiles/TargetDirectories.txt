@@ -1,0 +1,3 @@
+/Users/patrickwohrer/Embedded/RaspberryPi/raspberryPiNTC/build/pioasm/CMakeFiles/pioasm.dir
+/Users/patrickwohrer/Embedded/RaspberryPi/raspberryPiNTC/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/patrickwohrer/Embedded/RaspberryPi/raspberryPiNTC/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,6 @@
 {
     "cmake.environment": {
-        "PICO_SDK_PATH":"/Users/patrickwohrer/Embedded/RaspberryPi/raspberryPiNTC/pico-sdk"
+        "PICO_SDK_PATH":"/Users/patrickwohrer/Embedded/RaspberryPi/pico-sdk"
     },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

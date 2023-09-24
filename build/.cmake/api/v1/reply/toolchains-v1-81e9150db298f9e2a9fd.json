@@ -1,0 +1,89 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "/opt/homebrew/bin/arm-none-eabi-gcc"
+			},
+			"language" : "ASM"
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0/include",
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0/thumb",
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "/opt/homebrew/bin/arm-none-eabi-gcc",
+				"version" : "13.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0/include",
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0/thumb",
+						"/opt/homebrew/Cellar/arm-none-eabi-gcc/13.2.0/lib/gcc/arm-none-eabi/13.2.0"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "/opt/homebrew/bin/arm-none-eabi-g++",
+				"version" : "13.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
