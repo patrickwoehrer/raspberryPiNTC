@@ -1,5 +1,5 @@
 {
     "cmake.environment": {
-        "PICO_SDK_PATH":"../../pico-sdk"
+        "PICO_SDK_PATH":"/Users/patrickwohrer/Embedded/RaspberryPi/raspberryPiNTC/pico-sdk"
     },
 }
